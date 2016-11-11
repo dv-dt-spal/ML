@@ -1,0 +1,14 @@
+Visualizing a decision tree
+
+Many types of classifiers
+1. Artificial neural network
+2. Support vector machine
+
+
+Goals for this video
+1. Import dataset
+2. Train a classifier
+3. Predict label for new flower
+4. Visualize the tree  #Dependency issues
+
+Important thing to learn is how the trees are built automatically

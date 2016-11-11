@@ -1,0 +1,26 @@
+Learn from example and experience
+
+Classifier as a function. Takes data as input and labels a output.
+Supervised learning - Create a classifier by finding patterns in the examples.
+
+Simple recipe for Supervised learning
+
+1.Collect Training Data
+E.g. Take description as input.
+(Weight Texture Label) - Training data
+(Weight Texture) - Features or measurements which describe what we want to classify
+
+2.Train Classifier
+Simplest classifier is a decision tree based on bunch of if and else statement
+Box of rules - classifier - I/p O/p can be made generic
+
+3.Make Predictions
+A learning algorithm is the procedure that creates the box of rules which in turn is the classifier.
+It forms the rules by finding patterns in the training data
+Like oranges might weigh more and so that might be a rule in the classifier to determine the type of fruit
+
+Important Concepts
+How does this work in the real world?
+How much training data do you need?
+How is the tree created?
+What makes a good feature?
