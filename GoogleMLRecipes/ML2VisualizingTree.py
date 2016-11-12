@@ -38,5 +38,17 @@ print("Predicting the test data, output are labels ",clf.predict(test_data))
 
 
 #VISUALIZE THE DECISION TREE
-import matplotlib.pyplot as plt
+from sklearn.externals.six import StringIO
+import pydot
+import pydotplus
+dot_data = StringIO()
+tree.export_graphviz(clf,
+                     out_file=dot_data,
+                     feature_names = iris.feature_names,
+                     class_names = iris.target_names,
+                     filled = True, rounded = True,
+                     impurity = False)
+graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
+graph.write_pdf("iris.pdf")
+print (test_data[2], test_target[2])
 #VISUALIZE THE DECISION TREE
