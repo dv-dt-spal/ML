@@ -1,0 +1,13 @@
+Notes from Video 3 Google Dev ML Recipes
+
+Why coming up with good features is one of the most important task in Machine Learning?
+The classifiers will predict better with better features.
+
+Ideal features for classifiers are
+1. Informative - There should be difference in mode value of the labels/output based on the type of feature like
+                 the eye color of dog as a feature is not useful as it may result in equal distribution of the targeted output
+2. Independent - Two sets of features in the training data set should not correlate like height in different units
+3. Simple - Classifier should be able to interpret it like miles vs lat long of 2 cities
+
+
+Issues in the above might affect the classifiers accuracy.

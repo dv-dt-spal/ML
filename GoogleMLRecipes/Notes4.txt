@@ -1,0 +1,25 @@
+Video 4 Goals
+1. Basic pipeline for supervised learning - Multiple classifiers solving the same problem
+One approach to verify models is to train and test
+
+2. Algorithm learn something from data.
+
+If a function for classifier is
+def classifier(features):
+  #Logic for classifier
+  return label
+In case of supervised learning we don't want to write the function by ourselves.
+We want the algorithm to learn the function from the training data, to do so we will be using some of the mathematical models
+Model is the prototype or the rules that define the body of the function.
+
+Typically model has parameters which can be adjusted with the training data.
+Start at random then tweak parameters
+
+The model will start with some default parameters and then use the training data to adjust the parameter of the model.
+Then it will use the model or the so called generated function to classify the test data which it has never seen.
+
+For example we will use some model to distinguish between dots in a 2D coordinate space. The idea is green dots and red dots can be separated using a line.
+Initially the model won't know where the line should be but it will tweak the parameters based on the training data.
+When the classifier is then presented with a test data it will use the learned line to find the location of the point.
+
+Neural network is a different type of classifier but a more complex one than something as simple as decision tree classifier

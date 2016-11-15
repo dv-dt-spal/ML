@@ -1,0 +1,40 @@
+Video 6 Goals
+
+Train an image classifier with just a directory of images
+Codelab to do this Tensorflow for poets - Great way to get started with image classification.
+High level code but powerful - better than normal computer vision code
+
+
+We will be training an image classifier with TensorFlow for poets we only need to provide training data.
+TensorFlow is an open source machine learning library and it is especially useful for working with Deep learning
+
+Why Deep Learning is helping in problems like image classification?
+
+As discussed in the first episode to distinguish apples and oranges we relied on features rather than images as there is too much variation to be used for those statistical models.
+Even if the classifier takes features as input and we can use image processing algorithm to detect features like texture,edge in one scenario,
+it is incredibly difficult to reproduce the result if the scene and lighting or the angle of capture were to be changed.
+
+The major advantage working with images is that we don't need to manually extract features from the image.In other words no feature engineering needed
+Instead what we can do is use the raw pixels of the image as features and the classifier will be able to do the heavy lifting of classification.
+
+For example in the iris data set in the earlier example we used the features as the measurements which were done on the various types of flowers and these describe the flower.
+In tensorflow the training data is just list of images.
+
+Classifier is just a function f(x)=y x is a 2D array of pixels from the image and y is a label like the name of the flower
+
+In Deep Learning the classifier will be using neural network [Input -> (Hidden Layer)1 ->.... ->(Hidden Layer)n -> Output]
+The main difference with the regular supervised learning classifier is that it can learn more complex functions.
+
+In this project the tensor flow for poet takes cares for setting up and training the neural network.
+
+TF Learn is a high level machine learning library on the top of tensorflow
+
+Even though the tensorflow for poets take some time to train the network but it is not starting from scratch as it is starting on a existing classifier "Inception"
+
+Inception is one of the google's best image classifier (Open Source) and trained on 1.2 million images and from thousands of categories
+
+In tensorflow for poets we being with Inception classifier and then use a technique called retraining or Transfer learning to adjust it work with our images.
+Transfer learning means we are starting with a model that has been already trained on another problem.
+We will then be retraining it on a similar problem. Deep learning from scratch can take days, but transfer learning can be done in short order.
+
+To train a good image classifier it is important to have diversity and quantity.

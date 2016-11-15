@@ -1,0 +1,8 @@
+k-nearest neighbor algorithm
+Its all about calculating the distance between features and find the k nearest values to label the test data which needs to be classified
+Pros - Relatively simple
+Cons - Computationally intensive and slow as iterates over every training point
+       Hard to represent relationships between features as just calculates the difference in one function. This will be a flaw if some features are more informative
+
+In the long run we want a classifier that learns more complex relationships between features and the label we are trying to predict.
+A decision tree and a neural network is a good example for that 
