@@ -80,4 +80,8 @@ print(prediction)
 #calculate the accuracy of the prediction
 from sklearn.metrics import accuracy_score
 #the utility function compares true label we generated with the predicted ones
+<<<<<<< HEAD
 print (accuracy_score(y_test, prediction))
+=======
+print accuracy_score(y_test, prediction)
+>>>>>>> b91ac460ff05a23aba380cedf7a47f2feff8f1fe
